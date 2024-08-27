@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "icFP3hWg83NmKZErdJoBKXoQBiNgURpYnyjqS9P40Qc=",
+  "Source": "TaskStatusService",
+  "BasePath": "_content/TaskStatusService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

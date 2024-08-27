@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bxr8MmxnmUcZZ5bTtQhi5ytElCgG/C8NmNsS+0FAHd8=",
+  "Source": "TaskStatusService",
+  "BasePath": "_content/TaskStatusService",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

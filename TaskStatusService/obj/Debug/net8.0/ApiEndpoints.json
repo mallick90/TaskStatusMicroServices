@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "TaskStatusService.Controllers.TeamNotifySaveController",
+    "Method": "SaveDataTask",
+    "RelativePath": "api/TeamNotifySave/savedata",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskStatusService.Controllers.TeamNotifySaveController",
+    "Method": "SaveData",
+    "RelativePath": "api/TeamNotifySave/savenotifydata",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventJson",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
