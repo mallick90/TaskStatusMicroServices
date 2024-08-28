@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\MY_Work\\Checkin\\TaskStatusMicroServices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8598734B-334F-458F-A519-682E72758E74}|TaskStatusService\\TaskStatusService.csproj|c:\\my_work\\checkin\\taskstatusmicroservices\\taskstatusservice\\taskstatusservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8598734B-334F-458F-A519-682E72758E74}|TaskStatusService\\TaskStatusService.csproj|solutionrelative:taskstatusservice\\taskstatusservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{8598734B-334F-458F-A519-682E72758E74}|TaskStatusService\\TaskStatusService.csproj|c:\\my_work\\checkin\\taskstatusmicroservices\\taskstatusservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8598734B-334F-458F-A519-682E72758E74}|TaskStatusService\\TaskStatusService.csproj|solutionrelative:taskstatusservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8598734B-334F-458F-A519-682E72758E74}|TaskStatusService\\TaskStatusService.csproj|c:\\my_work\\checkin\\taskstatusmicroservices\\taskstatusservice\\controllers\\teamnotifysavecontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TaskStatusService",
-              "DocumentMoniker": "C:\\MY_Work\\Checkin\\TaskStatusMicroServices\\TaskStatusService\\TaskStatusService.csproj",
-              "RelativeDocumentMoniker": "TaskStatusService\\TaskStatusService.csproj",
-              "ToolTip": "C:\\MY_Work\\Checkin\\TaskStatusMicroServices\\TaskStatusService\\TaskStatusService.csproj*",
-              "RelativeToolTip": "TaskStatusService\\TaskStatusService.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-28T08:46:18.977Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MY_Work\\Checkin\\TaskStatusMicroServices\\TaskStatusService\\Program.cs",
+              "RelativeDocumentMoniker": "TaskStatusService\\Program.cs",
+              "ToolTip": "C:\\MY_Work\\Checkin\\TaskStatusMicroServices\\TaskStatusService\\Program.cs",
+              "RelativeToolTip": "TaskStatusService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T10:01:28.06Z",
               "EditorCaption": ""
             },
             {
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "TaskStatusService\\Controllers\\TeamNotifySaveController .cs",
               "ToolTip": "C:\\MY_Work\\Checkin\\TaskStatusMicroServices\\TaskStatusService\\Controllers\\TeamNotifySaveController .cs",
               "RelativeToolTip": "TaskStatusService\\Controllers\\TeamNotifySaveController .cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T08:40:38.363Z",
               "EditorCaption": ""

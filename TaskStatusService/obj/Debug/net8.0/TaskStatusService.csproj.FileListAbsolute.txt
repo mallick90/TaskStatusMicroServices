@@ -138,3 +138,5 @@ C:\MY_Work\Checkin\TaskStatusMicroServices\TaskStatusService\obj\Debug\net8.0\re
 C:\MY_Work\Checkin\TaskStatusMicroServices\TaskStatusService\obj\Debug\net8.0\TaskStatusService.pdb
 C:\MY_Work\Checkin\TaskStatusMicroServices\TaskStatusService\obj\Debug\net8.0\TaskStatusService.genruntimeconfig.cache
 C:\MY_Work\Checkin\TaskStatusMicroServices\TaskStatusService\obj\Debug\net8.0\ref\TaskStatusService.dll
+C:\MY_Work\Checkin\TaskStatusMicroServices\TaskStatusService\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\MY_Work\Checkin\TaskStatusMicroServices\TaskStatusService\bin\Debug\net8.0\AWSSDK.SQS.dll
