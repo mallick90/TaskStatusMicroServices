@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+PJxfE+Oxy4=",
+  "dgSpecHash": "6zE0GSJdM7o=",
   "success": true,
   "projectFilePath": "C:\\MY_Work\\Checkin\\TaskStatusMicroServices\\TaskStatusService\\TaskStatusService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gaurav.mallick\\.nuget\\packages\\awssdk.core\\3.7.400.11\\awssdk.core.3.7.400.11.nupkg.sha512",
+    "C:\\Users\\gaurav.mallick\\.nuget\\packages\\awssdk.sqs\\3.7.400.11\\awssdk.sqs.3.7.400.11.nupkg.sha512",
     "C:\\Users\\gaurav.mallick\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\gaurav.mallick\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",
     "C:\\Users\\gaurav.mallick\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

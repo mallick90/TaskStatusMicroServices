@@ -1,44 +1,32 @@
-using System;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Net.NetworkInformation;
-using System.Text.Json;
-using System.Threading.Tasks;
-//using Amazon.EventBridge;
-//using Amazon.EventBridge.Model;
-//using Newtonsoft.Json;
+using Amazon.SQS;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
-namespace TaskStatusService
+public class Program
 {
-    public class Program
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            var builder = WebApplication.CreateBuilder(args);
-
-            // Add services to the container.
-            builder.Services.AddControllersWithViews();
-            builder.Services.AddSwaggerGen();
-
-
-            var app = builder.Build();
-
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
-            app.UseStaticFiles();
-
-            app.UseRouting();
-
-            app.UseAuthorization();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
-            app.Run();
-        }
+        CreateHostBuilder(args).Build().Run();
     }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureServices((context, services) =>
+            {
+                services.AddControllers();
+
+                // Register AWS SQS client with default configuration
+                services.AddSingleton<IAmazonSQS>(provider =>
+                {
+                    var options = new AmazonSQSConfig
+                    {
+                        RegionEndpoint = Amazon.RegionEndpoint.USEast1 // Update with your AWS region
+                    };
+                    return new AmazonSQSClient(options);
+                });
+
+                // Register the SQS Processor Service
+                services.AddHttpClient<SqsProcessorService>();
+                services.AddHostedService<SqsProcessorService>();
+            });
 }
